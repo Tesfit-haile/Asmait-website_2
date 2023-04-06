@@ -1,0 +1,94 @@
+.app__specialMenu{
+    flex-direction: column;
+    background-color: var(--color-black)
+}
+
+.app__specialMenu-title{
+    margin-bottom:2rem;
+    text-align: center;
+}
+
+.app__specialMenu-menu{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row; /* incase after we set for mobile it might break*/
+}
+
+
+/* * Header of the cocktails and Beer&wine */
+.app__specialMenu-menu_cocktails, .app__specialMenu-menu_wine {
+    flex: 1;
+    width:100%;
+    flex-direction: column;
+}
+.app__specialMenu_menu_heading{
+    font-size: 40px;
+    line-height: 58px;
+
+}
+
+
+/*! image resizing */
+
+.app__specialMenu-menu_img{
+    width: 400px;
+    margin: 0 9rem 0 9rem;
+}
+
+.app__specialMenu-menu_img img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+
+
+}
+
+.app__specialMenu_menu_items{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 2rem 0;
+}
+
+/* * button rezing */
+.button__speicalMenu{
+    margin-top: 2rem;
+}
+
+
+/* * Media quary */
+
+@media screen and (max-width: 2000px) {
+    .app__specialMenu-menu_img{
+        width: 650px;
+    }
+    .app__specialMenu-menu_img img{
+    height: 920px;
+    }
+    
+}
+
+
+@media screen and (max-width: 1150px) {
+    .app__specialMenu-menu {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .app__specialMenu-menu_img{
+        margin: 2rem 0;
+    }
+    
+}
+@media screen and (max-width: 650px) {
+.app__specialMenu-menu_img{
+    width: 100%;
+}
+
+.app__specialMenu_menu_heading{
+    font-size: 30px;
+}
+
+    
+}
