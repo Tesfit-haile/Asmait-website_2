@@ -26,7 +26,7 @@ const Header = () => (
 
     {/* will containe the img */}
     <div className="app__wrapper_img">
-      <img src={images.engera} alt="header img" />
+      <img src={images.engera} alt="header img" style={{ height: '40%' }} />
     </div>
   </div>
 );

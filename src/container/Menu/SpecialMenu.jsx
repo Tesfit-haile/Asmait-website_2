@@ -12,7 +12,7 @@ const SpecialMenu = () => (
     {/* title */}
     <div className="app__specialMenu-title">
       <SubHeading title="ሽውሃትካ ዝኸፍቱ ብሉጻት ዝርዝራት መግብታትና" />
-      <h1 className="headtext__cormorant" style={{ marginBottom: '2rem' }}>ዝበለጹ ባህላውን ግዝያውን መግብታትና</h1>
+      <h1 className="headtext__cormorant" style={{ marginBottom: '1rem' }}>ዝበለጹ ባህላውን ግዝያውን መግብታትና</h1>
     </div>
 
     <div className="app__specialMenu-menu">
@@ -31,8 +31,8 @@ const SpecialMenu = () => (
 
 
       {/* image */}
-      <div className="app__specialMenu-menu_img">
-        <img src={images.zrzratMegbna} alt="Image menu" srcset="" />
+      <div className="app__specialMenu-menu_img" >
+        <img src={images.zrzratMegbna} alt="Image menu" srcset="" style={{ height: '700px' }} />
       </div>
 
 
