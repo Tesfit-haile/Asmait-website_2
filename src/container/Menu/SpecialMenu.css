@@ -4,7 +4,7 @@
 }
 
 .app__specialMenu-title{
-    margin-bottom:2rem;
+    margin-bottom:1rem;
     text-align: center;
 }
 
@@ -33,7 +33,7 @@
 
 .app__specialMenu-menu_img{
     width: 400px;
-    margin: 0 5rem 0 5rem;
+    margin: 0 4rem 0 4rem;
 }
 
 .app__specialMenu-menu_img img{
@@ -47,12 +47,12 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin: 2rem 0;
+    margin: 1rem 0;
 }
 
 /* * button rezing */
 .button__speicalMenu{
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 
