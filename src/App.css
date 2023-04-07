@@ -91,15 +91,18 @@
 .headtext__cormorant {
   font-family: var(--font-base);
   color: var(--color-golden);
-  font-size: 40px;
-  line-height: 75.2px;
-  letter-spacing: 0.03em;
+  font-size: 50px;
+  line-height: 80.2px;
+  letter-spacing: 0.04em;
   text-transform: capitalize;
 }
 
 .spoon__img {
   width: 45px;
 }
+
+
+
 
 @media screen and (min-width: 2000px) {
   .custom__button,
@@ -108,13 +111,18 @@
     line-height: 67px;
   }
 
+  .app__header-h1{
+    font-size: 150px;
+    line-height: 210px
+  }
+
   .p__opensans {
     font-size: 30px;
-    line-height: 60px;
+    line-height: 50px;
   }
 
   .headtext__cormorant {
-    font-size: 50px;
+    font-size: 150px;
     line-height: 210px;
   }
 
@@ -122,6 +130,10 @@
     width: 80px;
   }
 }
+
+
+
+
 
 @media screen and (max-width: 1150px) {
   .app__wrapper {
