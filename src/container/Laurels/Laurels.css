@@ -43,3 +43,11 @@
         min-width: 390px;
     }
 }
+@media screen and (max-width: 650px) {
+    
+    /* * not sure about this */
+    .app__wrapper_img img{
+        max-width: 220px;
+    }
+
+}

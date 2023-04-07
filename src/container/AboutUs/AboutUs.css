@@ -42,7 +42,7 @@
 }
 
 .app__aboutus-content_knife img{
-height: 700px;
+height: 910px;
 width: 300px;
 border-radius: 5px;
 }
@@ -71,5 +71,9 @@ border-radius: 5px;
     .app__aboutus-overlay img{
         width: 100%;
         height: 320px;
+    }
+    .app__aboutus-contnet_about, .app__aboutus-contnet_history{
+        max-width: 75%;
+       
     }
 }
