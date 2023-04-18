@@ -15,10 +15,13 @@ const Header = () => (
       <SubHeading title="ዝመረጽክሞ ዓይነት መግቢ" />
       <h1 className="app__header-h1"> ዝበለጸ ናይ ሓበሻ መግቢ...</h1>
       <p style={{ margin: '3rem 0', color: 'white', fontFamily: 'fantasy', fontStyle: 'italic', fontSize: '17px' }}>
-        ተባረኪ ውይ በጣም ያምራል ቆየሁ ቤተሰብ ካረኩሽ
-        የአውራ ዶሮው ባለቤት ኢሲያኩ ሹይቡ የቀረበውን ክስ ተከትሎ ለፍርድ ቤቱ እንዳስረዳው ዶሮውን
-        በአውሮፓውያኑ አቆጣጠር ነገ አርብ ውይ በጣም ያምራል ለሚከበረው የስቅለት በዓል ተባረኪ
-        ለቤተሰቦቹ እንደገዛው እና ብዙ ጊዜ አለመቆየቱን ተናግሯል። ወደኔም ጎራ በይልኝ እንተጋዝ  የቀረበውን ክስ ተከትሎ
+
+        Chicken breast in onion-sweet,
+        spicy barbecue-like sauce which has no tomato.
+        Instead it has a sophisticated spice
+        combination known as Berbere – hot red peppers, ginger, rue seed, sacred basil,
+        cloves, cinnamon, cardamom and bishop’s weed are among other spices individually
+        prepared and grounded together in the exotic blend.
       </p>
       <button type="button" className="custom__button" >ዝርዝራት ትሕዝቶና</button>
 
